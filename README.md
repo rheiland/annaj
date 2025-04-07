@@ -1,6 +1,7 @@
 # Lots of cell types --> extending predefined colors
 
 * we edit `paint_by_number_cell_coloring` in `modules/PhysiCell_pathology.cpp` to allow more colors
+  - e.g., https://github.com/rheiland/annaj/blob/main/modules/PhysiCell_pathology.cpp#L1738
 * requires recompiling when edited
 
 ```
