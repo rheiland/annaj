@@ -1,0 +1,430 @@
+Signals (with synonyms): 
+=======================
+0 : ACKR1
+12 : ACKR1 gradient
+1 : CCL19
+13 : CCL19 gradient
+2 : CCL27
+14 : CCL27 gradient
+3 : CCR2
+15 : CCR2 gradient
+4 : CCR7
+16 : CCR7 gradient
+5 : CXCR4
+17 : CXCR4 gradient
+48 : apoptotic
+43 : attacking
+20 : contact with Acinar
+21 : contact with B Cells
+40 : contact with BM
+22 : contact with CFTR- Tumor Cells
+23 : contact with CXCL9/10 Cells
+24 : contact with Ductal
+25 : contact with Endocrine 1
+26 : contact with Endothelial
+27 : contact with Fibroblasts
+28 : contact with Lymphatic Endothelial Cells
+29 : contact with Macrophages
+30 : contact with Mast Cells
+31 : contact with Metaplastic Cells
+32 : contact with Smooth Muscle Cells
+33 : contact with T Cells
+34 : contact with Tumor Cells
+37 : contact with apoptotic cell
+37 : contact with apoptotic cells
+40 : contact with basement membrane
+20 : contact with cell type 0
+21 : contact with cell type 1
+30 : contact with cell type 10
+31 : contact with cell type 11
+32 : contact with cell type 12
+33 : contact with cell type 13
+34 : contact with cell type 14
+22 : contact with cell type 2
+23 : contact with cell type 3
+24 : contact with cell type 4
+25 : contact with cell type 5
+26 : contact with cell type 6
+27 : contact with cell type 7
+28 : contact with cell type 8
+29 : contact with cell type 9
+36 : contact with dead cell
+36 : contact with dead cells
+35 : contact with live cell
+35 : contact with live cells
+38 : contact with necrotic cell
+38 : contact with necrotic cells
+39 : contact with other dead cell
+39 : contact with other dead cells
+46 : current time
+47 : custom 0
+47 : custom: somedata
+47 : custom:somedata
+41 : damage
+42 : damage delivered
+44 : dead
+46 : global time
+12 : grad(ACKR1)
+13 : grad(CCL19)
+14 : grad(CCL27)
+15 : grad(CCR2)
+16 : grad(CCR7)
+17 : grad(CXCR4)
+12 : gradient of ACKR1
+13 : gradient of CCL19
+14 : gradient of CCL27
+15 : gradient of CCR2
+16 : gradient of CCR7
+17 : gradient of CXCR4
+6 : internalized ACKR1
+7 : internalized CCL19
+8 : internalized CCL27
+9 : internalized CCR2
+10 : internalized CCR7
+11 : internalized CXCR4
+6 : intracellular ACKR1
+7 : intracellular CCL19
+8 : intracellular CCL27
+9 : intracellular CCR2
+10 : intracellular CCR7
+11 : intracellular CXCR4
+43 : is attacking
+44 : is dead
+48 : is_apoptotic
+49 : is_necrotic
+49 : necrotic
+18 : pressure
+46 : time
+45 : total attack time
+42 : total damage delivered
+19 : volume
+
+
+Behaviors (with synonyms): 
+=========================
+18 : ACKR1 export
+0 : ACKR1 secretion
+6 : ACKR1 secretion saturation density
+6 : ACKR1 secretion target
+12 : ACKR1 uptake
+19 : CCL19 export
+1 : CCL19 secretion
+7 : CCL19 secretion saturation density
+7 : CCL19 secretion target
+13 : CCL19 uptake
+20 : CCL27 export
+2 : CCL27 secretion
+8 : CCL27 secretion saturation density
+8 : CCL27 secretion target
+14 : CCL27 uptake
+21 : CCR2 export
+3 : CCR2 secretion
+9 : CCR2 secretion saturation density
+9 : CCR2 secretion target
+15 : CCR2 uptake
+22 : CCR7 export
+4 : CCR7 secretion
+10 : CCR7 secretion saturation density
+10 : CCR7 secretion target
+16 : CCR7 uptake
+23 : CXCR4 export
+5 : CXCR4 secretion
+11 : CXCR4 secretion saturation density
+11 : CXCR4 secretion target
+17 : CXCR4 uptake
+43 : adhesive affinity to Acinar
+44 : adhesive affinity to B Cells
+45 : adhesive affinity to CFTR- Tumor Cells
+46 : adhesive affinity to CXCL9/10 Cells
+47 : adhesive affinity to Ductal
+48 : adhesive affinity to Endocrine 1
+49 : adhesive affinity to Endothelial
+50 : adhesive affinity to Fibroblasts
+51 : adhesive affinity to Lymphatic Endothelial Cells
+52 : adhesive affinity to Macrophages
+53 : adhesive affinity to Mast Cells
+54 : adhesive affinity to Metaplastic Cells
+55 : adhesive affinity to Smooth Muscle Cells
+56 : adhesive affinity to T Cells
+57 : adhesive affinity to Tumor Cells
+43 : adhesive affinity to cell type 0
+44 : adhesive affinity to cell type 1
+53 : adhesive affinity to cell type 10
+54 : adhesive affinity to cell type 11
+55 : adhesive affinity to cell type 12
+56 : adhesive affinity to cell type 13
+57 : adhesive affinity to cell type 14
+45 : adhesive affinity to cell type 2
+46 : adhesive affinity to cell type 3
+47 : adhesive affinity to cell type 4
+48 : adhesive affinity to cell type 5
+49 : adhesive affinity to cell type 6
+50 : adhesive affinity to cell type 7
+51 : adhesive affinity to cell type 8
+52 : adhesive affinity to cell type 9
+30 : apoptosis
+125 : asymmetric division to Acinar
+126 : asymmetric division to B Cells
+127 : asymmetric division to CFTR- Tumor Cells
+128 : asymmetric division to CXCL9/10 Cells
+129 : asymmetric division to Ductal
+130 : asymmetric division to Endocrine 1
+131 : asymmetric division to Endothelial
+132 : asymmetric division to Fibroblasts
+133 : asymmetric division to Lymphatic Endothelial Cells
+134 : asymmetric division to Macrophages
+135 : asymmetric division to Mast Cells
+136 : asymmetric division to Metaplastic Cells
+137 : asymmetric division to Smooth Muscle Cells
+138 : asymmetric division to T Cells
+139 : asymmetric division to Tumor Cells
+80 : attack Acinar
+81 : attack B Cells
+82 : attack CFTR- Tumor Cells
+83 : attack CXCL9/10 Cells
+84 : attack Ductal
+85 : attack Endocrine 1
+86 : attack Endothelial
+87 : attack Fibroblasts
+88 : attack Lymphatic Endothelial Cells
+89 : attack Macrophages
+90 : attack Mast Cells
+91 : attack Metaplastic Cells
+92 : attack Smooth Muscle Cells
+93 : attack T Cells
+94 : attack Tumor Cells
+80 : attack cell type 0
+81 : attack cell type 1
+90 : attack cell type 10
+91 : attack cell type 11
+92 : attack cell type 12
+93 : attack cell type 13
+94 : attack cell type 14
+82 : attack cell type 2
+83 : attack cell type 3
+84 : attack cell type 4
+85 : attack cell type 5
+86 : attack cell type 6
+87 : attack cell type 7
+88 : attack cell type 8
+89 : attack cell type 9
+160 : attack damage rate
+161 : attack duration
+157 : cell attachment rate
+158 : cell detachment rate
+60 : cell-BM adhesion
+61 : cell-BM repulsion
+41 : cell-cell adhesion
+42 : cell-cell adhesion elastic constant
+59 : cell-cell repulsion
+60 : cell-membrane adhesion
+61 : cell-membrane repulsion
+35 : chemotactic response to ACKR1
+36 : chemotactic response to CCL19
+37 : chemotactic response to CCL27
+38 : chemotactic response to CCR2
+39 : chemotactic response to CCR7
+40 : chemotactic response to CXCR4
+35 : chemotactic sensitivity to ACKR1
+36 : chemotactic sensitivity to CCL19
+37 : chemotactic sensitivity to CCL27
+38 : chemotactic sensitivity to CCR2
+39 : chemotactic sensitivity to CCR7
+40 : chemotactic sensitivity to CXCR4
+140 : custom 0
+140 : custom: somedata
+140 : custom:somedata
+24 : cycle entry
+162 : damage rate
+163 : damage repair rate
+24 : exit from cycle phase 0
+25 : exit from cycle phase 1
+26 : exit from cycle phase 2
+27 : exit from cycle phase 3
+28 : exit from cycle phase 4
+29 : exit from cycle phase 5
+95 : fuse to Acinar
+96 : fuse to B Cells
+97 : fuse to CFTR- Tumor Cells
+98 : fuse to CXCL9/10 Cells
+99 : fuse to Ductal
+100 : fuse to Endocrine 1
+101 : fuse to Endothelial
+102 : fuse to Fibroblasts
+103 : fuse to Lymphatic Endothelial Cells
+104 : fuse to Macrophages
+105 : fuse to Mast Cells
+106 : fuse to Metaplastic Cells
+107 : fuse to Smooth Muscle Cells
+108 : fuse to T Cells
+109 : fuse to Tumor Cells
+95 : fuse to cell type 0
+96 : fuse to cell type 1
+105 : fuse to cell type 10
+106 : fuse to cell type 11
+107 : fuse to cell type 12
+108 : fuse to cell type 13
+109 : fuse to cell type 14
+97 : fuse to cell type 2
+98 : fuse to cell type 3
+99 : fuse to cell type 4
+100 : fuse to cell type 5
+101 : fuse to cell type 6
+102 : fuse to cell type 7
+103 : fuse to cell type 8
+104 : fuse to cell type 9
+142 : immunogenicity to Acinar
+143 : immunogenicity to B Cells
+144 : immunogenicity to CFTR- Tumor Cells
+145 : immunogenicity to CXCL9/10 Cells
+146 : immunogenicity to Ductal
+147 : immunogenicity to Endocrine 1
+148 : immunogenicity to Endothelial
+149 : immunogenicity to Fibroblasts
+150 : immunogenicity to Lymphatic Endothelial Cells
+151 : immunogenicity to Macrophages
+152 : immunogenicity to Mast Cells
+153 : immunogenicity to Metaplastic Cells
+154 : immunogenicity to Smooth Muscle Cells
+155 : immunogenicity to T Cells
+156 : immunogenicity to Tumor Cells
+142 : immunogenicity to cell type 0
+143 : immunogenicity to cell type 1
+152 : immunogenicity to cell type 10
+153 : immunogenicity to cell type 11
+154 : immunogenicity to cell type 12
+155 : immunogenicity to cell type 13
+156 : immunogenicity to cell type 14
+144 : immunogenicity to cell type 2
+145 : immunogenicity to cell type 3
+146 : immunogenicity to cell type 4
+147 : immunogenicity to cell type 5
+148 : immunogenicity to cell type 6
+149 : immunogenicity to cell type 7
+150 : immunogenicity to cell type 8
+151 : immunogenicity to cell type 9
+141 : is movable
+141 : is_movable
+159 : maximum number of cell attachments
+33 : migration bias
+34 : migration persistence time
+32 : migration speed
+141 : movable
+31 : necrosis
+65 : phagocytose Acinar
+66 : phagocytose B Cells
+67 : phagocytose CFTR- Tumor Cells
+68 : phagocytose CXCL9/10 Cells
+69 : phagocytose Ductal
+70 : phagocytose Endocrine 1
+71 : phagocytose Endothelial
+72 : phagocytose Fibroblasts
+73 : phagocytose Lymphatic Endothelial Cells
+74 : phagocytose Macrophages
+75 : phagocytose Mast Cells
+76 : phagocytose Metaplastic Cells
+77 : phagocytose Smooth Muscle Cells
+78 : phagocytose T Cells
+79 : phagocytose Tumor Cells
+62 : phagocytose apoptotic cell
+65 : phagocytose cell type 0
+66 : phagocytose cell type 1
+75 : phagocytose cell type 10
+76 : phagocytose cell type 11
+77 : phagocytose cell type 12
+78 : phagocytose cell type 13
+79 : phagocytose cell type 14
+67 : phagocytose cell type 2
+68 : phagocytose cell type 3
+69 : phagocytose cell type 4
+70 : phagocytose cell type 5
+71 : phagocytose cell type 6
+72 : phagocytose cell type 7
+73 : phagocytose cell type 8
+74 : phagocytose cell type 9
+63 : phagocytose necrotic cell
+64 : phagocytose other dead cell
+65 : phagocytosis of 0
+66 : phagocytosis of 1
+75 : phagocytosis of 10
+76 : phagocytosis of 11
+77 : phagocytosis of 12
+78 : phagocytosis of 13
+79 : phagocytosis of 14
+67 : phagocytosis of 2
+68 : phagocytosis of 3
+69 : phagocytosis of 4
+70 : phagocytosis of 5
+71 : phagocytosis of 6
+72 : phagocytosis of 7
+73 : phagocytosis of 8
+74 : phagocytosis of 9
+62 : phagocytosis of apoptotic cell
+62 : phagocytosis of apoptotic cells
+63 : phagocytosis of necrotic cell
+63 : phagocytosis of necrotic cells
+64 : phagocytosis of other dead cell
+64 : phagocytosis of other dead cells
+58 : relative maximum adhesion distance
+110 : transform to Acinar
+111 : transform to B Cells
+112 : transform to CFTR- Tumor Cells
+113 : transform to CXCL9/10 Cells
+114 : transform to Ductal
+115 : transform to Endocrine 1
+116 : transform to Endothelial
+117 : transform to Fibroblasts
+118 : transform to Lymphatic Endothelial Cells
+119 : transform to Macrophages
+120 : transform to Mast Cells
+121 : transform to Metaplastic Cells
+122 : transform to Smooth Muscle Cells
+123 : transform to T Cells
+124 : transform to Tumor Cells
+110 : transform to cell type 0
+111 : transform to cell type 1
+120 : transform to cell type 10
+121 : transform to cell type 11
+122 : transform to cell type 12
+123 : transform to cell type 13
+124 : transform to cell type 14
+112 : transform to cell type 2
+113 : transform to cell type 3
+114 : transform to cell type 4
+115 : transform to cell type 5
+116 : transform to cell type 6
+117 : transform to cell type 7
+118 : transform to cell type 8
+119 : transform to cell type 9
+110 : transition to Acinar
+111 : transition to B Cells
+112 : transition to CFTR- Tumor Cells
+113 : transition to CXCL9/10 Cells
+114 : transition to Ductal
+115 : transition to Endocrine 1
+116 : transition to Endothelial
+117 : transition to Fibroblasts
+118 : transition to Lymphatic Endothelial Cells
+119 : transition to Macrophages
+120 : transition to Mast Cells
+121 : transition to Metaplastic Cells
+122 : transition to Smooth Muscle Cells
+123 : transition to T Cells
+124 : transition to Tumor Cells
+110 : transition to cell type 0
+111 : transition to cell type 1
+120 : transition to cell type 10
+121 : transition to cell type 11
+122 : transition to cell type 12
+123 : transition to cell type 13
+124 : transition to cell type 14
+112 : transition to cell type 2
+113 : transition to cell type 3
+114 : transition to cell type 4
+115 : transition to cell type 5
+116 : transition to cell type 6
+117 : transition to cell type 7
+118 : transition to cell type 8
+119 : transition to cell type 9
+
+
